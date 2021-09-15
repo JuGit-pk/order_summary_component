@@ -1,0 +1,25 @@
+{
+  "homepage": "http://JuGit-pk.github.io/order_summary_component",
+  "name": "order-summary-component-main",
+  "version": "1.0.0",
+  "description": "frontend mentor challenge",
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuGit-pk/order_summary_component.git"
+  },
+  "author": "Muhammad Junaid Iqbal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuGit-pk/order_summary_component/issues"
+  }
+
+}
