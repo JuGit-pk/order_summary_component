@@ -1,0 +1,113 @@
+/* font-family: 'Red Hat Display', sans-serif; */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Red Hat Display", sans-serif;
+}
+html {
+  font-size: 16px;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(225, 100%, 94%);
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+.description,
+.plan__price,
+.cancel {
+  color: hsl(224, 23%, 55%);
+}
+.description {
+  margin-bottom: 20px;
+}
+.card {
+  background-color: #fff;
+  max-width: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.img-hero {
+  width: 100%;
+}
+.card-content {
+  padding: 40px;
+  text-align: center;
+}
+.subscription {
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-radius: 8px;
+}
+.box {
+  display: flex;
+  width: 70%;
+  align-items: center;
+}
+.plan {
+  margin-left: 20px;
+  /* font-size: 13px; */
+}
+.plan__title {
+  font-weight: 700;
+}
+.plan__price {
+  margin-top: 8px;
+}
+.plan__change {
+  transition: all 0.2s linear;
+  font-weight: 700;
+}
+.plan__change:hover {
+  color: hsl(252, 60%, 53%);
+  text-decoration: none;
+  cursor: pointer;
+}
+.music-icon {
+  height: 100%;
+}
+.payment {
+  background-color: hsl(245, 75%, 52%);
+  padding: 10px;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 11px;
+  box-shadow: 0px 15px 16px rgba(56, 41, 225, 0.25);
+  margin: 25px 0 20px;
+  cursor: pointer;
+  transition: background 0.2s linear;
+}
+.payment:hover {
+  background-color: hsl(252, 60%, 53%);
+}
+.cancel {
+  font-size: 11px;
+  font-weight: 900;
+  cursor: pointer;
+  transition: color 0.1s linear;
+}
+.cancel:hover {
+  color: hsl(223, 47%, 23%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 50px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
